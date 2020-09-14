@@ -1,5 +1,7 @@
 ## Interactive Searchable Bar Chart
 
+![screenshot](barGrab.png)
+
 * Clicking on the top row of buttons lets you select subsamples of the data.  (This is dummy data, and contains three "types" of elements -- A, B, C, dominated by A and B.) 
 * Click on any bar to see the list of data elements in that bin.  
 * Use the search box to search for any individual data element by name. (Names for each data element were generated from python's [lorem](https://pypi.org/project/lorem/) package.)  
