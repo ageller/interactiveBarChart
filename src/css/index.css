@@ -3,8 +3,10 @@
 	--background-color: #FFFFFF;
 	--button-foreground-color: #342F2E; 
 	--button-background-color: #FFFFFF;
-	--highlight-color: #f87a62;
-	--hover-color: #f8c8ba;
+    --highlight-color: #3b826b; 
+    --hover-color: #a8ddc0; 
+	/*--highlight-color: #f87a62;*/
+	/*--hover-color: #f8c8ba;*/
 
 }
 
