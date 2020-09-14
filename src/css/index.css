@@ -1,0 +1,56 @@
+:root {
+	--foreground-color: #342F2E; 
+	--background-color: #FFFFFF;
+	--button-foreground-color: #342F2E; 
+	--button-background-color: #FFFFFF;
+	--highlight-color: #f87a62;
+	--hover-color: #f8c8ba;
+
+}
+
+#container {
+	font: 12px sans-serif;
+	font-family: sans-serif;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	background-color : var(--background-color);
+	color: var(--foreground-color);
+}
+
+.button{
+	float:left;
+	font-family: sans-serif;
+	border-bottom: 1px solid black;
+	text-align:center;
+	background-color: var(--button-background-color);
+	color: var(--button-foreground-color);
+	cursor: pointer;
+}
+.buttonHover:hover {
+	background-color: var(--hover-color);
+	/*color: var(--button-background-color);*/
+}
+.buttonClicked {
+	background-color: var(--highlight-color);
+	color: var(--button-background-color);
+}
+.listNames {
+	font: 16px sans-serif;
+	font-family: sans-serif;
+	padding:4px;
+	margin:0;
+	border-bottom: 1px solid black;
+	cursor:pointer;
+}
+.fundInfo {
+	font: 12px sans-serif;
+	font-family: sans-serif;
+	font-style: italic;
+	padding:4px;
+	padding-left:8px;
+}
+.listNamesHover:hover {
+	background-color: var(--hover-color);
+	/*color: var(--button-background-color);*/
+}
